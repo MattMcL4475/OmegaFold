@@ -14,7 +14,7 @@ setup(
     entry_points={"console_scripts": ["omegafold=omegafold.__main__:main",],},
     install_requires=[
         "biopython",
-        "torch=2.4.0"
+        "torch==2.4.0"
     ],
     python_requires=">=3.8",
 )
